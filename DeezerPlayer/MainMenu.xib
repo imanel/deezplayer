@@ -1291,21 +1291,21 @@
 				</array>
 				<string key="NSName">_NSMainMenu</string>
 			</object>
-			<object class="NSWindowTemplate" id="972006081">
+			<object class="NSWindowTemplate" id="180289600">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{335, 390}, {1200, 700}}</string>
+				<string key="NSWindowRect">{{335, 409}, {1200, 700}}</string>
 				<int key="NSWTFlags">1954021376</int>
 				<string key="NSWindowTitle">Deezer is loading...</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
-				<object class="NSView" key="NSWindowView" id="439893737">
+				<object class="NSView" key="NSWindowView" id="992295071">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
-						<object class="WebView" id="542020954">
-							<reference key="NSNextResponder" ref="439893737"/>
+						<object class="WebView" id="507156621">
+							<reference key="NSNextResponder" ref="992295071"/>
 							<int key="NSvFlags">274</int>
 							<set class="NSMutableSet" key="NSDragTypes">
 								<string>Apple HTML pasteboard type</string>
@@ -1325,11 +1325,9 @@
 								<string>public.url-name</string>
 							</set>
 							<string key="NSFrameSize">{1200, 700}</string>
-							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSSuperview" ref="992295071"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView"/>
-							<int key="NSViewLayerContentsRedrawPolicy">2</int>
-							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="FrameName"/>
 							<string key="GroupName"/>
 							<object class="WebPreferences" key="Preferences">
@@ -1347,9 +1345,7 @@
 					<string key="NSFrameSize">{1200, 700}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
-					<reference key="NSNextKeyView" ref="542020954"/>
-					<bool key="NSViewIsLayerTreeHost">YES</bool>
-					<int key="NSViewLayerContentsRedrawPolicy">2</int>
+					<reference key="NSNextKeyView" ref="507156621"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
@@ -1998,22 +1994,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="972006081"/>
-						<reference key="destination" ref="976324537"/>
-					</object>
-					<int key="connectionID">578</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">window</string>
-						<reference key="source" ref="976324537"/>
-						<reference key="destination" ref="972006081"/>
-					</object>
-					<int key="connectionID">532</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
 						<string key="label">myVC</string>
 						<reference key="source" ref="976324537"/>
 						<reference key="destination" ref="31379845"/>
@@ -2022,43 +2002,51 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">frameLoadDelegate</string>
-						<reference key="source" ref="542020954"/>
-						<reference key="destination" ref="31379845"/>
-					</object>
-					<int key="connectionID">579</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">UIDelegate</string>
-						<reference key="source" ref="542020954"/>
-						<reference key="destination" ref="31379845"/>
-					</object>
-					<int key="connectionID">580</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
 						<string key="label">window</string>
-						<reference key="source" ref="31379845"/>
-						<reference key="destination" ref="972006081"/>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="180289600"/>
 					</object>
-					<int key="connectionID">572</int>
+					<int key="connectionID">592</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">webView</string>
 						<reference key="source" ref="31379845"/>
-						<reference key="destination" ref="542020954"/>
+						<reference key="destination" ref="507156621"/>
 					</object>
-					<int key="connectionID">573</int>
+					<int key="connectionID">588</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">window</string>
+						<reference key="source" ref="31379845"/>
+						<reference key="destination" ref="180289600"/>
+					</object>
+					<int key="connectionID">589</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">view</string>
 						<reference key="source" ref="31379845"/>
-						<reference key="destination" ref="439893737"/>
+						<reference key="destination" ref="992295071"/>
 					</object>
-					<int key="connectionID">584</int>
+					<int key="connectionID">593</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">frameLoadDelegate</string>
+						<reference key="source" ref="507156621"/>
+						<reference key="destination" ref="31379845"/>
+					</object>
+					<int key="connectionID">590</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">UIDelegate</string>
+						<reference key="source" ref="507156621"/>
+						<reference key="destination" ref="31379845"/>
+					</object>
+					<int key="connectionID">591</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2574,22 +2562,6 @@
 						<reference key="parent" ref="698887838"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">371</int>
-						<reference key="object" ref="972006081"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="439893737"/>
-						</array>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">372</int>
-						<reference key="object" ref="439893737"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="542020954"/>
-						</array>
-						<reference key="parent" ref="972006081"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">375</int>
 						<reference key="object" ref="302598603"/>
 						<array class="NSMutableArray" key="children">
@@ -3058,15 +3030,30 @@
 						<reference key="parent" ref="963351320"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">536</int>
-						<reference key="object" ref="542020954"/>
-						<array class="NSMutableArray" key="children"/>
-						<reference key="parent" ref="439893737"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">571</int>
 						<reference key="object" ref="31379845"/>
 						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">585</int>
+						<reference key="object" ref="180289600"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="992295071"/>
+						</array>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">586</int>
+						<reference key="object" ref="992295071"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="507156621"/>
+						</array>
+						<reference key="parent" ref="180289600"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">587</int>
+						<reference key="object" ref="507156621"/>
+						<reference key="parent" ref="992295071"/>
 					</object>
 				</array>
 			</object>
@@ -3131,12 +3118,6 @@
 				<string key="350.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="351.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="354.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="371.IBNSWindowAutoPositionCentersHorizontal"/>
-				<boolean value="YES" key="371.IBNSWindowAutoPositionCentersVertical"/>
-				<string key="371.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="371.IBWindowTemplateEditedContentRect">{{380, 496}, {480, 360}}</string>
-				<integer value="1" key="371.NSWindowTemplate.visibleAtLaunch"/>
-				<string key="372.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="375.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="376.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="377.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3212,11 +3193,17 @@
 				<string key="516.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="517.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="534.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="536.IBPluginDependency">com.apple.WebKitIBPlugin</string>
 				<string key="56.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="57.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="571.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="58.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<boolean value="YES" key="585.IBNSWindowAutoPositionCentersHorizontal"/>
+				<boolean value="YES" key="585.IBNSWindowAutoPositionCentersVertical"/>
+				<string key="585.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="585.IBWindowTemplateEditedContentRect">{{210, 469}, {604, 341}}</string>
+				<integer value="1" key="585.NSWindowTemplate.visibleAtLaunch"/>
+				<string key="586.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="587.IBPluginDependency">com.apple.WebKitIBPlugin</string>
 				<string key="72.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="73.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="74.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3233,7 +3220,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">584</int>
+			<int key="maxID">593</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
