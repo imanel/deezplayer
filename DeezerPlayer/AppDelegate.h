@@ -7,9 +7,15 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "SPMediaKeyTap.h"
+#import "MainWindowController.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate,NSWindowDelegate> {
+    MainWindowController *myVC;
+    SPMediaKeyTap *keyTap;
+}
 
 @property (assign) IBOutlet NSWindow *window;
+@property IBOutlet MainWindowController *myVC;
 
 @end

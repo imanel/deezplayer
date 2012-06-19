@@ -7,28 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59AB09E1159103920010365B /* MediaKeyApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FAC291159100D2007B0F87 /* MediaKeyApp.m */; };
+		59AB09E2159103AD0010365B /* NSObject+SPInvocationGrabbing.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CB4DF115910259009B3C40 /* NSObject+SPInvocationGrabbing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		59AB09E3159103AD0010365B /* SPMediaKeyTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CB4DF315910259009B3C40 /* SPMediaKeyTap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		59AB09E4159103DA0010365B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FAC28D159100D2007B0F87 /* AppDelegate.m */; };
+		59AB09E5159103E70010365B /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FAC28F159100D2007B0F87 /* MainWindowController.m */; };
 		59FAC26C15910053007B0F87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FAC26B15910053007B0F87 /* Cocoa.framework */; };
 		59FAC27615910053007B0F87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59FAC27415910053007B0F87 /* InfoPlist.strings */; };
 		59FAC27815910053007B0F87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FAC27715910053007B0F87 /* main.m */; };
 		59FAC27C15910053007B0F87 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 59FAC27A15910053007B0F87 /* Credits.rtf */; };
-		59FAC27F15910053007B0F87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FAC27E15910053007B0F87 /* AppDelegate.m */; };
-		59FAC28215910053007B0F87 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59FAC28015910053007B0F87 /* MainMenu.xib */; };
+		59FAC28B1591009B007B0F87 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 59FAC28A1591009B007B0F87 /* icon.icns */; };
+		59FAC294159100F2007B0F87 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59FAC293159100F2007B0F87 /* MainMenu.xib */; };
+		59FAC29A15910132007B0F87 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FAC29915910132007B0F87 /* WebKit.framework */; };
+		59FAC29C15910138007B0F87 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FAC29B15910138007B0F87 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59CB4DF015910259009B3C40 /* NSObject+SPInvocationGrabbing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPInvocationGrabbing.h"; sourceTree = "<group>"; };
+		59CB4DF115910259009B3C40 /* NSObject+SPInvocationGrabbing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SPInvocationGrabbing.m"; sourceTree = "<group>"; };
+		59CB4DF215910259009B3C40 /* SPMediaKeyTap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPMediaKeyTap.h; sourceTree = "<group>"; };
+		59CB4DF315910259009B3C40 /* SPMediaKeyTap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPMediaKeyTap.m; sourceTree = "<group>"; };
 		59FAC26715910053007B0F87 /* DeezerPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeezerPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FAC26B15910053007B0F87 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		59FAC26E15910053007B0F87 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		59FAC26F15910053007B0F87 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		59FAC27015910053007B0F87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		59FAC27315910053007B0F87 /* DeezerPlayer-Info.plist */ = {isa = PBXFileReference; path = "DeezerPlayer-Info.plist"; sourceTree = "<group>"; };
+		59FAC27315910053007B0F87 /* DeezerPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeezerPlayer-Info.plist"; sourceTree = "<group>"; };
 		59FAC27515910053007B0F87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59FAC27715910053007B0F87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		59FAC27915910053007B0F87 /* DeezerPlayer-Prefix.pch */ = {isa = PBXFileReference; path = "DeezerPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		59FAC27915910053007B0F87 /* DeezerPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeezerPlayer-Prefix.pch"; sourceTree = "<group>"; };
 		59FAC27B15910053007B0F87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		59FAC27D15910053007B0F87 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		59FAC27E15910053007B0F87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		59FAC28115910053007B0F87 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		59FAC28A1591009B007B0F87 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
+		59FAC28C159100D1007B0F87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59FAC28D159100D2007B0F87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59FAC28E159100D2007B0F87 /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		59FAC28F159100D2007B0F87 /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		59FAC290159100D2007B0F87 /* MediaKeyApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaKeyApp.h; sourceTree = "<group>"; };
+		59FAC291159100D2007B0F87 /* MediaKeyApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaKeyApp.m; sourceTree = "<group>"; };
+		59FAC293159100F2007B0F87 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		59FAC29915910132007B0F87 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		59FAC29B15910138007B0F87 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,13 +54,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59FAC29C15910138007B0F87 /* Carbon.framework in Frameworks */,
 				59FAC26C15910053007B0F87 /* Cocoa.framework in Frameworks */,
+				59FAC29A15910132007B0F87 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59CB4DEF15910259009B3C40 /* SPInvocationGrabbing */ = {
+			isa = PBXGroup;
+			children = (
+				59CB4DF015910259009B3C40 /* NSObject+SPInvocationGrabbing.h */,
+				59CB4DF115910259009B3C40 /* NSObject+SPInvocationGrabbing.m */,
+			);
+			path = SPInvocationGrabbing;
+			sourceTree = "<group>";
+		};
 		59FAC25C15910052007B0F87 = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +92,9 @@
 		59FAC26A15910053007B0F87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				59FAC29B15910138007B0F87 /* Carbon.framework */,
 				59FAC26B15910053007B0F87 /* Cocoa.framework */,
+				59FAC29915910132007B0F87 /* WebKit.framework */,
 				59FAC26D15910053007B0F87 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -82,10 +113,11 @@
 		59FAC27115910053007B0F87 /* DeezerPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				59FAC27D15910053007B0F87 /* AppDelegate.h */,
-				59FAC27E15910053007B0F87 /* AppDelegate.m */,
-				59FAC28015910053007B0F87 /* MainMenu.xib */,
+				59FAC2981591011B007B0F87 /* Application */,
+				59FAC29715910111007B0F87 /* Controller */,
+				59FAC29615910107007B0F87 /* Delegate */,
 				59FAC27215910053007B0F87 /* Supporting Files */,
+				59FAC295159100FD007B0F87 /* View */,
 			);
 			path = DeezerPlayer;
 			sourceTree = "<group>";
@@ -93,6 +125,8 @@
 		59FAC27215910053007B0F87 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				59FAC292159100E6007B0F87 /* SPMediaKeyTap */,
+				59FAC28A1591009B007B0F87 /* icon.icns */,
 				59FAC27315910053007B0F87 /* DeezerPlayer-Info.plist */,
 				59FAC27415910053007B0F87 /* InfoPlist.strings */,
 				59FAC27715910053007B0F87 /* main.m */,
@@ -100,6 +134,51 @@
 				59FAC27A15910053007B0F87 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59FAC292159100E6007B0F87 /* SPMediaKeyTap */ = {
+			isa = PBXGroup;
+			children = (
+				59CB4DEF15910259009B3C40 /* SPInvocationGrabbing */,
+				59CB4DF215910259009B3C40 /* SPMediaKeyTap.h */,
+				59CB4DF315910259009B3C40 /* SPMediaKeyTap.m */,
+			);
+			path = SPMediaKeyTap;
+			sourceTree = "<group>";
+		};
+		59FAC295159100FD007B0F87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59FAC293159100F2007B0F87 /* MainMenu.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		59FAC29615910107007B0F87 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				59FAC28C159100D1007B0F87 /* AppDelegate.h */,
+				59FAC28D159100D2007B0F87 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		59FAC29715910111007B0F87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59FAC28E159100D2007B0F87 /* MainWindowController.h */,
+				59FAC28F159100D2007B0F87 /* MainWindowController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		59FAC2981591011B007B0F87 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				59FAC290159100D2007B0F87 /* MediaKeyApp.h */,
+				59FAC291159100D2007B0F87 /* MediaKeyApp.m */,
+			);
+			name = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +234,8 @@
 			files = (
 				59FAC27615910053007B0F87 /* InfoPlist.strings in Resources */,
 				59FAC27C15910053007B0F87 /* Credits.rtf in Resources */,
-				59FAC28215910053007B0F87 /* MainMenu.xib in Resources */,
+				59FAC28B1591009B007B0F87 /* icon.icns in Resources */,
+				59FAC294159100F2007B0F87 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +247,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				59FAC27815910053007B0F87 /* main.m in Sources */,
-				59FAC27F15910053007B0F87 /* AppDelegate.m in Sources */,
+				59AB09E4159103DA0010365B /* AppDelegate.m in Sources */,
+				59AB09E5159103E70010365B /* MainWindowController.m in Sources */,
+				59AB09E1159103920010365B /* MediaKeyApp.m in Sources */,
+				59AB09E2159103AD0010365B /* NSObject+SPInvocationGrabbing.m in Sources */,
+				59AB09E3159103AD0010365B /* SPMediaKeyTap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +272,6 @@
 				59FAC27B15910053007B0F87 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		59FAC28015910053007B0F87 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				59FAC28115910053007B0F87 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -289,6 +365,7 @@
 				59FAC28715910053007B0F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
