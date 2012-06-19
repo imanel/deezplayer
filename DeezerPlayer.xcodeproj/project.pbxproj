@@ -15,7 +15,6 @@
 		59FAC26C15910053007B0F87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FAC26B15910053007B0F87 /* Cocoa.framework */; };
 		59FAC27615910053007B0F87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59FAC27415910053007B0F87 /* InfoPlist.strings */; };
 		59FAC27815910053007B0F87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FAC27715910053007B0F87 /* main.m */; };
-		59FAC27C15910053007B0F87 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 59FAC27A15910053007B0F87 /* Credits.rtf */; };
 		59FAC28B1591009B007B0F87 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 59FAC28A1591009B007B0F87 /* icon.icns */; };
 		59FAC294159100F2007B0F87 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59FAC293159100F2007B0F87 /* MainMenu.xib */; };
 		59FAC29A15910132007B0F87 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FAC29915910132007B0F87 /* WebKit.framework */; };
@@ -36,7 +35,6 @@
 		59FAC27515910053007B0F87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59FAC27715910053007B0F87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59FAC27915910053007B0F87 /* DeezerPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeezerPlayer-Prefix.pch"; sourceTree = "<group>"; };
-		59FAC27B15910053007B0F87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		59FAC28A1591009B007B0F87 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
 		59FAC28C159100D1007B0F87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		59FAC28D159100D2007B0F87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -131,7 +129,6 @@
 				59FAC27415910053007B0F87 /* InfoPlist.strings */,
 				59FAC27715910053007B0F87 /* main.m */,
 				59FAC27915910053007B0F87 /* DeezerPlayer-Prefix.pch */,
-				59FAC27A15910053007B0F87 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -233,7 +230,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				59FAC27615910053007B0F87 /* InfoPlist.strings in Resources */,
-				59FAC27C15910053007B0F87 /* Credits.rtf in Resources */,
 				59FAC28B1591009B007B0F87 /* icon.icns in Resources */,
 				59FAC294159100F2007B0F87 /* MainMenu.xib in Resources */,
 			);
@@ -264,14 +260,6 @@
 				59FAC27515910053007B0F87 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		59FAC27A15910053007B0F87 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				59FAC27B15910053007B0F87 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
