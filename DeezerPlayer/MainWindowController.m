@@ -11,10 +11,10 @@
 
 @implementation MainWindowController
 
-@synthesize webView;
-
 - (void)awakeFromNib {
+    [self setBackground];
     [self setUserAgent];
+    [webView setDrawsBackground:NO];
     [[webView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://deezer.com/"]]];
 }
 
@@ -86,6 +86,21 @@
 
 - (void)playPrev {
     [webView stringByEvaluatingJavaScriptFromString:@"playercontrol.doAction('prev');"];
+}
+
+- (void)setBackground {
+    [[self window] setBackgroundColor:NSColor.blackColor];
+    
+    NSImageView *imageView = [[NSImageView alloc] initWithFrame:NSMakeRect(0, 0, 480, 215)];
+    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"deezer-logo" ofType:@"png"];
+    NSImage *image = [[NSImage alloc]initWithContentsOfFile:imagePath];
+    [imageView setImage:image];
+    [view addSubview:imageView positioned:NSWindowBelow relativeTo:webView];
+    [imageView setFrameOrigin:NSMakePoint(
+                                        (NSWidth([view bounds]) - NSWidth([imageView frame])) / 2,
+                                        (NSHeight([view bounds]) - NSHeight([imageView frame])) / 2
+                                        )];
+    [imageView setAutoresizingMask:NSViewMinXMargin | NSViewMaxXMargin | NSViewMinYMargin | NSViewMaxYMargin];
 }
 
 

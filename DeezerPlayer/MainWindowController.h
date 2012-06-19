@@ -10,10 +10,9 @@
 #import <WebKit/WebKit.h>
 
 @interface MainWindowController : NSWindowController {
-    WebView *webView;
+    IBOutlet NSView *view;
+    IBOutlet WebView *webView;
 }
-
-@property (strong) IBOutlet WebView *webView;
 
 - (void)togglePlayPause;
 - (void)playNext;
