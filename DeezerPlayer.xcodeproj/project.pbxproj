@@ -15,6 +15,7 @@
 		59AB09EF15910EC00010365B /* deezer-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 59AB09EE15910EC00010365B /* deezer-logo.png */; };
 		59AB09F3159111D40010365B /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59AB09F1159111D40010365B /* Quartz.framework */; };
 		59AB09F4159111D40010365B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59AB09F2159111D40010365B /* QuartzCore.framework */; };
+		59AB0A07159142250010365B /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 59AB0A06159142250010365B /* CHANGELOG.md */; };
 		59FAC26C15910053007B0F87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FAC26B15910053007B0F87 /* Cocoa.framework */; };
 		59FAC27615910053007B0F87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59FAC27415910053007B0F87 /* InfoPlist.strings */; };
 		59FAC27815910053007B0F87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FAC27715910053007B0F87 /* main.m */; };
@@ -28,6 +29,7 @@
 		59AB09EE15910EC00010365B /* deezer-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deezer-logo.png"; sourceTree = "<group>"; };
 		59AB09F1159111D40010365B /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		59AB09F2159111D40010365B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		59AB0A06159142250010365B /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
 		59CB4DF015910259009B3C40 /* NSObject+SPInvocationGrabbing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPInvocationGrabbing.h"; sourceTree = "<group>"; };
 		59CB4DF115910259009B3C40 /* NSObject+SPInvocationGrabbing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SPInvocationGrabbing.m"; sourceTree = "<group>"; };
 		59CB4DF215910259009B3C40 /* SPMediaKeyTap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPMediaKeyTap.h; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				59FAC27415910053007B0F87 /* InfoPlist.strings */,
 				59FAC27715910053007B0F87 /* main.m */,
 				59FAC27915910053007B0F87 /* DeezerPlayer-Prefix.pch */,
+				59AB0A06159142250010365B /* CHANGELOG.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				59FAC28B1591009B007B0F87 /* icon.icns in Resources */,
 				59FAC294159100F2007B0F87 /* MainMenu.xib in Resources */,
 				59AB09EF15910EC00010365B /* deezer-logo.png in Resources */,
+				59AB0A07159142250010365B /* CHANGELOG.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
