@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>DeezerPlayer</title>
+<link>http://imanel.org/DeezerPlayer/dist/appcast.xml</link>
+<description>Most recent changes with links to updates.</description>
+<language>en</language>
+<item>
+<title>Version 1.1</title>
+<sparkle:releaseNotesLink>
+http://imanel.org/DeezerPlayer/dist/DeezerPlayer-1.1.html
+</sparkle:releaseNotesLink>
+<pubDate>Wed, 20 Jun 2012 11:13:32 +0200</pubDate>
+<enclosure url="http://imanel.org/DeezerPlayer/dist/DeezerPlayer-1.1.zip"
+length="257432"
+type="application/octet-stream"
+sparkle:version="2"
+sparkle:shortVersionString="1.1"
+sparkle:dsaSignature="MCwCFCqEQWmJz+9RcKZ2iL52cAFF6yl+AhQmIACJiRdg3hVjdTwFocwzofsqdg=="/>
+</item>
+</channel>
+</rss>
