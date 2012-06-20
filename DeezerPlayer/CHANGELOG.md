@@ -1,6 +1,6 @@
 # Changelog
 
-## Edge
+## 1.1
 
 - Fix issue with scrolling some UI elements
 
