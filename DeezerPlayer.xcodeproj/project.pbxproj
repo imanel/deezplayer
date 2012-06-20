@@ -467,6 +467,7 @@
 				59AF236C1591C57800FD9E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59FAC26115910052007B0F87 /* Build configuration list for PBXProject "DeezerPlayer" */ = {
 			isa = XCConfigurationList;

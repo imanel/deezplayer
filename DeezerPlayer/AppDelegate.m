@@ -31,6 +31,7 @@
 }
 
 - (BOOL)windowShouldClose:(id)sender {
+    [[NSApplication sharedApplication] hide:self];
 	[[self window] orderOut:self];
 	return NO;
 }
