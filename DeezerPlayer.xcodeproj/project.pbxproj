@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		596B807F15914C3A008BCDBB /* custom.js in Resources */ = {isa = PBXBuildFile; fileRef = 59437EE51591498A009067BB /* custom.js */; };
 		59AB09E1159103920010365B /* MediaKeyApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FAC291159100D2007B0F87 /* MediaKeyApp.m */; };
 		59AB09E2159103AD0010365B /* NSObject+SPInvocationGrabbing.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CB4DF115910259009B3C40 /* NSObject+SPInvocationGrabbing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		59AB09E3159103AD0010365B /* SPMediaKeyTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CB4DF315910259009B3C40 /* SPMediaKeyTap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -16,6 +17,7 @@
 		59AB09F3159111D40010365B /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59AB09F1159111D40010365B /* Quartz.framework */; };
 		59AB09F4159111D40010365B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59AB09F2159111D40010365B /* QuartzCore.framework */; };
 		59AB0A07159142250010365B /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 59AB0A06159142250010365B /* CHANGELOG.md */; };
+		59AB0A0A1591443E0010365B /* custom.css in Resources */ = {isa = PBXBuildFile; fileRef = 59AB0A091591443E0010365B /* custom.css */; };
 		59FAC26C15910053007B0F87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FAC26B15910053007B0F87 /* Cocoa.framework */; };
 		59FAC27615910053007B0F87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59FAC27415910053007B0F87 /* InfoPlist.strings */; };
 		59FAC27815910053007B0F87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FAC27715910053007B0F87 /* main.m */; };
@@ -26,10 +28,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59437EE41591498A009067BB /* custom.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = custom.css; sourceTree = "<group>"; };
+		59437EE51591498A009067BB /* custom.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = custom.js; sourceTree = "<group>"; };
 		59AB09EE15910EC00010365B /* deezer-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deezer-logo.png"; sourceTree = "<group>"; };
 		59AB09F1159111D40010365B /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		59AB09F2159111D40010365B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		59AB0A06159142250010365B /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		59AB0A091591443E0010365B /* custom.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = custom.css; sourceTree = "<group>"; };
+		59AB0A0B159146600010365B /* custom.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = custom.js; sourceTree = "<group>"; };
 		59CB4DF015910259009B3C40 /* NSObject+SPInvocationGrabbing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPInvocationGrabbing.h"; sourceTree = "<group>"; };
 		59CB4DF115910259009B3C40 /* NSObject+SPInvocationGrabbing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SPInvocationGrabbing.m"; sourceTree = "<group>"; };
 		59CB4DF215910259009B3C40 /* SPMediaKeyTap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPMediaKeyTap.h; sourceTree = "<group>"; };
@@ -135,6 +141,8 @@
 		59FAC27215910053007B0F87 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				59437EE41591498A009067BB /* custom.css */,
+				59437EE51591498A009067BB /* custom.js */,
 				59AB09EE15910EC00010365B /* deezer-logo.png */,
 				59FAC292159100E6007B0F87 /* SPMediaKeyTap */,
 				59FAC28A1591009B007B0F87 /* icon.icns */,
@@ -161,6 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				59FAC293159100F2007B0F87 /* MainMenu.xib */,
+				59AB0A091591443E0010365B /* custom.css */,
+				59AB0A0B159146600010365B /* custom.js */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -243,11 +253,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596B807F15914C3A008BCDBB /* custom.js in Resources */,
 				59FAC27615910053007B0F87 /* InfoPlist.strings in Resources */,
 				59FAC28B1591009B007B0F87 /* icon.icns in Resources */,
 				59FAC294159100F2007B0F87 /* MainMenu.xib in Resources */,
 				59AB09EF15910EC00010365B /* deezer-logo.png in Resources */,
 				59AB0A07159142250010365B /* CHANGELOG.md in Resources */,
+				59AB0A0A1591443E0010365B /* custom.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

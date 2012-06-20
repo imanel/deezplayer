@@ -1,0 +1,9 @@
+html {
+  opacity: 0;
+  -webkit-transition: opacity 2s ease-out;
+  transition: opacity 2s ease-out;
+}
+
+html.unhide {
+  opacity: 1;
+}

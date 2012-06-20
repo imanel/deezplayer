@@ -14,7 +14,7 @@
 - (void)awakeFromNib {
     [self setBackground];
     [self setUserAgent];
-    [webView setDrawsBackground:NO];
+    [self setUserStylesheet];
     [[webView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://deezer.com/"]]];
 }
 
@@ -72,8 +72,11 @@
 }
 
 - (void)webView:(WebView *)sender didFinishLoadForFrame:(WebFrame *)frame {
-    if(frame == [sender mainFrame])
-        [webView stringByEvaluatingJavaScriptFromString:@"if (typeof live === 'object' && typeof live.hideLiveBar === 'function') live.hideLiveBar();"]; 
+    if(frame == [sender mainFrame]) {
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"custom" ofType:@"js"];
+        NSString *js = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+        [webView stringByEvaluatingJavaScriptFromString:js];
+    }
 }
 
 - (void)togglePlayPause {
@@ -89,6 +92,7 @@
 }
 
 - (void)setBackground {
+    [webView setDrawsBackground:NO];
     [[self window] setBackgroundColor:NSColor.blackColor];
     
     NSImageView *imageView = [[NSImageView alloc] initWithFrame:NSMakeRect(0, 0, 480, 215)];
@@ -101,6 +105,14 @@
                                         (NSHeight([view bounds]) - NSHeight([imageView frame])) / 2
                                         )];
     [imageView setAutoresizingMask:NSViewMinXMargin | NSViewMaxXMargin | NSViewMinYMargin | NSViewMaxYMargin];
+}
+
+- (void)setUserStylesheet {
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"custom" ofType:@"css"]; 
+    NSURL *fileURL = [NSURL URLWithString:filePath]; 
+    
+    [[webView preferences] setUserStyleSheetEnabled:YES];
+    [[webView preferences] setUserStyleSheetLocation:fileURL];
 }
 
 
