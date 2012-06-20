@@ -72,4 +72,12 @@ footer {
 
 footer a {
   font-size: 10px;
+  display: inline;
+}
+
+footer span {
+  font-size: 12px;
+  font-weight: normal;
+  color: #999;
+  margin: 0 5px;
 }
