@@ -5,6 +5,7 @@ body {
   background: black;
   color: white;
   font-family: 'Fredoka One', cursive;
+  -webkit-font-smoothing:antialiased
 }
 
 #wrapper {
@@ -71,6 +72,7 @@ section {
   text-align: center;
   font-size: 14px;
   font-family: Arial;
+  font-weight: bold;
 }
 
 footer {
@@ -89,4 +91,34 @@ footer span {
   font-weight: normal;
   color: #999;
   margin: 0 5px;
+}
+
+@-moz-keyframes reset { 0% {opacity: 0;} 100% {opacity: 0;} }
+@-webkit-keyframes reset { 0% {opacity: 0;} 100% {opacity: 0;} }
+@keyframes reset { 0% {opacity: 0;} 100% {opacity: 0;} }
+
+@-moz-keyframes fade-in { 0% {opacity: 0;} 60% {opacity: 0;} 100% {opacity: 1;} }
+@-webkit-keyframes fade-in { 0% {opacity: 0;} 60% {opacity: 0;} 100% {opacity: 1;} }
+@keyframes fade-in { 0% {opacity: 0;} 60% {opacity: 0;} 100% {opacity: 1;} }
+
+.fade-in {
+  -moz-animation: reset 2s ease-in 0s 1, fade-in 2s ease-in 0s 1;
+  -webkit-animation: reset 2s ease-in 0s 1, fade-in 2s ease-in 0s 1;
+  animation: reset 2s ease-in 0s 1, fade-in 2s ease-in 0s 1;
+}
+
+.fade-in.one {
+  -moz-animation-delay: 0s, 0s;
+  -webkit-animation-delay: 0s, 0s;
+  animation-delay: 0s, 0s;
+}
+.fade-in.two {
+  -moz-animation-delay: 0s, 1s;
+  -webkit-animation-delay: 0s, 1s;
+  animation-delay: 0s, 1s;
+}
+.fade-in.three {
+  -moz-animation-delay: 0s, 1.5s;
+  -webkit-animation-delay: 0s, 1.5s;
+  animation-delay: 0s, 1.5s;
 }
