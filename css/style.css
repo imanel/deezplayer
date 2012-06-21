@@ -43,20 +43,30 @@ h2 {
 a {
   text-decoration: none;
   color: #999;
-  display: block;
-  width: 128px;
-  margin: 150px auto 0;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
 }
 
 a:hover {
   color: white;
 }
 
-a span {
+section {
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  height: 420px;
+}
+
+#download a {
+  display: block;
+  width: 128px;
+  margin: 110px auto 0;
+}
+
+#download a span {
   display: block;
   text-align: center;
   font-size: 14px;
@@ -72,7 +82,6 @@ footer {
 
 footer a {
   font-size: 10px;
-  display: inline;
 }
 
 footer span {
