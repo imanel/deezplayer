@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  DeezerPlayer
+//  DeezPlayer
 //
 //  Created by Bernard Potocki on 19.06.2012.
-//  Copyright (c) 2012 Rebased. All rights reserved.
+//  Copyright (c) 2012 Imanel. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -17,7 +17,7 @@
 
 + (void)initialize {
 	if([self class] != [AppDelegate class]) return;
-    
+
 	// Register defaults for the whitelist of apps that want to use media keys
 	[[NSUserDefaults standardUserDefaults] registerDefaults:[NSDictionary dictionaryWithObjectsAndKeys: [SPMediaKeyTap defaultMediaKeyUserBundleIdentifiers], kMediaKeyUsingBundleIdentifiersDefaultsKey, nil]];
 }
@@ -49,7 +49,7 @@
 	int keyFlags = ([event data1] & 0x0000FFFF);
 	BOOL keyIsPressed = (((keyFlags & 0xFF00) >> 8)) == 0xA;
 	// int keyRepeat = (keyFlags & 0x1);
-    
+
 	if (keyIsPressed) {
 		switch (keyCode) {
 			case NX_KEYTYPE_PLAY:
@@ -58,7 +58,7 @@
 			case NX_KEYTYPE_FAST:
 				[myVC playNext];
 				break;
-                
+
 			case NX_KEYTYPE_REWIND:
 				[myVC playPrev];
 				break;
