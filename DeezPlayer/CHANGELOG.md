@@ -4,6 +4,7 @@
 
 - New: Rename project to DeezPlayer
 - Fix: Deactivate application after closing window
+- Fix: Allow cmd-tab back to application after closing window
 
 ### v1.2
 
