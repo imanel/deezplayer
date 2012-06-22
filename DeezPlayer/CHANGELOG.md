@@ -3,6 +3,7 @@
 ### Edge
 
 - New: Rename project to DeezPlayer
+- New: New dock icon
 - Fix: Deactivate application after closing window
 - Fix: Allow cmd-tab back to application after closing window
 
