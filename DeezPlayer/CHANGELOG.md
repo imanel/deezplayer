@@ -4,6 +4,7 @@
 
 - New: Rename project to DeezPlayer
 - New: New dock icon
+- New: Less cluttered menu
 - Fix: Deactivate application after closing window
 - Fix: Allow cmd-tab back to application after closing window
 
