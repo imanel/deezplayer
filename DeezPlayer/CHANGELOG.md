@@ -1,6 +1,6 @@
 ## Changelog
 
-### Edge
+### v1.3
 
 - New: Rename project to DeezPlayer
 - New: New dock icon
