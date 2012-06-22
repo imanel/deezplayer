@@ -10,13 +10,13 @@
 <sparkle:releaseNotesLink>
 http://imanel.org/DeezPlayer/dist/release-notes.html
 </sparkle:releaseNotesLink>
-<pubDate>Sat, 23 Jun 2012 00:55:54 +0200</pubDate>
+<pubDate>Sat, 23 Jun 2012 01:12:23 +0200</pubDate>
 <enclosure url="http://imanel.org/DeezPlayer/dist/DeezPlayer-1.3.zip"
-length="681770"
+length="682817"
 type="application/octet-stream"
-sparkle:version="130"
+sparkle:version="131"
 sparkle:shortVersionString="1.3"
-sparkle:dsaSignature="MCwCFC7SmwCrbvzHvliX1AzBfURI5yGrAhRwRpxXYS+0SkIAaav/tzNsOlPcFQ=="/>
+sparkle:dsaSignature="MCwCFDQnV8GBXm3tGPFIZeAqWgU+Pc1LAhQfWAvZBl3uT4oX1dzHJO/tqW6h4A=="/>
 </item>
 </channel>
 </rss>
