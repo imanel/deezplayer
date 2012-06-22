@@ -6,17 +6,17 @@
 <description>Most recent changes with links to updates.</description>
 <language>en</language>
 <item>
-<title>Version 1.2</title>
+<title>Version 1.3</title>
 <sparkle:releaseNotesLink>
 http://imanel.org/DeezPlayer/dist/release-notes.html
 </sparkle:releaseNotesLink>
-<pubDate>Wed, 20 Jun 2012 11:29:07 +0200</pubDate>
-<enclosure url="http://imanel.org/DeezPlayer/dist/DeezerPlayer-1.2.zip"
-length="667388"
+<pubDate>Sat, 23 Jun 2012 00:55:54 +0200</pubDate>
+<enclosure url="http://imanel.org/DeezPlayer/dist/DeezPlayer-1.3.zip"
+length="681770"
 type="application/octet-stream"
-sparkle:version="120"
-sparkle:shortVersionString="1.2"
-sparkle:dsaSignature="MCwCFB/AWnzv1mOPJvivSqGB1vk+nkfKAhQz+af57IROfvYLhFf8xG4xgh7y/Q=="/>
+sparkle:version="130"
+sparkle:shortVersionString="1.3"
+sparkle:dsaSignature="MCwCFC7SmwCrbvzHvliX1AzBfURI5yGrAhRwRpxXYS+0SkIAaav/tzNsOlPcFQ=="/>
 </item>
 </channel>
 </rss>
