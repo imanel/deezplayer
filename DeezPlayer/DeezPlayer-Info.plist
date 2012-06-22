@@ -27,13 +27,13 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2012 Rebased. All rights reserved.</string>
+	<string>Copyright © 2012 Imanel. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>MediaKeyApp</string>
 	<key>SUFeedURL</key>
-	<string>http://imanel.org/DeezerPlayer/dist/appcast.xml</string>
+	<string>http://imanel.org/DeezPlayer/dist/appcast.xml</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 </dict>

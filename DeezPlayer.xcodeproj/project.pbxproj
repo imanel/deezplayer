@@ -51,7 +51,7 @@
 			containerPortal = 59FAC25E15910052007B0F87 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 59FAC26615910053007B0F87;
-			remoteInfo = DeezerPlayer;
+			remoteInfo = DeezPlayer;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -83,15 +83,15 @@
 		59CB4DF115910259009B3C40 /* NSObject+SPInvocationGrabbing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SPInvocationGrabbing.m"; sourceTree = "<group>"; };
 		59CB4DF215910259009B3C40 /* SPMediaKeyTap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPMediaKeyTap.h; sourceTree = "<group>"; };
 		59CB4DF315910259009B3C40 /* SPMediaKeyTap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPMediaKeyTap.m; sourceTree = "<group>"; };
-		59FAC26715910053007B0F87 /* DeezerPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeezerPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FAC26715910053007B0F87 /* DeezPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeezPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FAC26B15910053007B0F87 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		59FAC26E15910053007B0F87 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		59FAC26F15910053007B0F87 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		59FAC27015910053007B0F87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		59FAC27315910053007B0F87 /* DeezerPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeezerPlayer-Info.plist"; sourceTree = "<group>"; };
+		59FAC27315910053007B0F87 /* DeezPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeezPlayer-Info.plist"; sourceTree = "<group>"; };
 		59FAC27515910053007B0F87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59FAC27715910053007B0F87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		59FAC27915910053007B0F87 /* DeezerPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeezerPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		59FAC27915910053007B0F87 /* DeezPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeezPlayer-Prefix.pch"; sourceTree = "<group>"; };
 		59FAC28A1591009B007B0F87 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
 		59FAC28C159100D1007B0F87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		59FAC28D159100D2007B0F87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		59FAC25C15910052007B0F87 = {
 			isa = PBXGroup;
 			children = (
-				59FAC27115910053007B0F87 /* DeezerPlayer */,
+				59FAC27115910053007B0F87 /* DeezPlayer */,
 				59FAC26A15910053007B0F87 /* Frameworks */,
 				59FAC26815910053007B0F87 /* Products */,
 			);
@@ -142,7 +142,7 @@
 		59FAC26815910053007B0F87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59FAC26715910053007B0F87 /* DeezerPlayer.app */,
+				59FAC26715910053007B0F87 /* DeezPlayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		59FAC27115910053007B0F87 /* DeezerPlayer */ = {
+		59FAC27115910053007B0F87 /* DeezPlayer */ = {
 			isa = PBXGroup;
 			children = (
 				59FAC2981591011B007B0F87 /* Application */,
@@ -180,7 +180,8 @@
 				59FAC27215910053007B0F87 /* Supporting Files */,
 				59FAC295159100FD007B0F87 /* View */,
 			);
-			path = DeezerPlayer;
+			name = DeezPlayer;
+			path = DeezPlayer;
 			sourceTree = "<group>";
 		};
 		59FAC27215910053007B0F87 /* Supporting Files */ = {
@@ -192,10 +193,10 @@
 				59AB09EE15910EC00010365B /* deezer-logo.png */,
 				59FAC292159100E6007B0F87 /* SPMediaKeyTap */,
 				59FAC28A1591009B007B0F87 /* icon.icns */,
-				59FAC27315910053007B0F87 /* DeezerPlayer-Info.plist */,
+				59FAC27315910053007B0F87 /* DeezPlayer-Info.plist */,
 				59FAC27415910053007B0F87 /* InfoPlist.strings */,
 				59FAC27715910053007B0F87 /* main.m */,
-				59FAC27915910053007B0F87 /* DeezerPlayer-Prefix.pch */,
+				59FAC27915910053007B0F87 /* DeezPlayer-Prefix.pch */,
 				59AB0A06159142250010365B /* CHANGELOG.md */,
 			);
 			name = "Supporting Files";
@@ -251,9 +252,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		59FAC26615910053007B0F87 /* DeezerPlayer */ = {
+		59FAC26615910053007B0F87 /* DeezPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59FAC28515910053007B0F87 /* Build configuration list for PBXNativeTarget "DeezerPlayer" */;
+			buildConfigurationList = 59FAC28515910053007B0F87 /* Build configuration list for PBXNativeTarget "DeezPlayer" */;
 			buildPhases = (
 				59FAC26315910053007B0F87 /* Sources */,
 				59FAC26415910053007B0F87 /* Frameworks */,
@@ -264,9 +265,9 @@
 			);
 			dependencies = (
 			);
-			name = DeezerPlayer;
-			productName = DeezerPlayer;
-			productReference = 59FAC26715910053007B0F87 /* DeezerPlayer.app */;
+			name = DeezPlayer;
+			productName = DeezPlayer;
+			productReference = 59FAC26715910053007B0F87 /* DeezPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -278,7 +279,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = Rebased;
 			};
-			buildConfigurationList = 59FAC26115910052007B0F87 /* Build configuration list for PBXProject "DeezerPlayer" */;
+			buildConfigurationList = 59FAC26115910052007B0F87 /* Build configuration list for PBXProject "DeezPlayer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -290,7 +291,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				59FAC26615910053007B0F87 /* DeezerPlayer */,
+				59FAC26615910053007B0F87 /* DeezPlayer */,
 				59AF23691591C57800FD9E05 /* Distribution */,
 			);
 		};
@@ -326,7 +327,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /usr/bin/ruby;
-			shellScript = "#!/usr/bin/env ruby -w\n#\n#################################################################################\n#                                                                               #\n#     appcast_automation.rb                                                     #\n#                                                                               #\n#     author:   Craig Williams                                                  #\n#     created:  2009-01-09                                                      #\n#                                                                               #\n#################################################################################\n#                                                                               #\n#     This program is free software: you can redistribute it and/or modify      #\n#     it under the terms of the GNU General Public License as published by      #\n#     the Free Software Foundation, either version 3 of the License, or         #\n#     (at your option) any later version.                                       #\n#                                                                               #\n#     This program is distributed in the hope that it will be useful,           #\n#     but WITHOUT ANY WARRANTY; without even the implied warranty of            #\n#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the             #\n#     GNU General Public License for more details.                              #\n#                                                                               #\n#     You should have received a copy of the GNU General Public License         #\n#     along with this program.  If not, see <http://www.gnu.org/licenses/>.     #\n#                                                                               #\n#################################################################################\n\nclass AppCast\nrequire 'rubygems'\nrequire 'yaml'\nrequire 'tmpdir'\nrequire 'fileutils'\nrequire 'openssl'\nrequire 'nokogiri'\nrequire 'base64'\n\nMESSAGE_HEADER   = 'RUN SCRIPT DURING BUILD MESSAGE'\nYAML_FOLDER_PATH = \"#{ENV['HOME']}/Sites/moje/osx/DeezerPlayer-website/dist/\"\n\ndef initialize\n@signature = ''\nrequire_release_build\nproject_setup\nload_config\n\n# the build_now setting in the config.yml file\n# determines whether you want to perform this script\n# set to 'NO' until you are ready to publish\nexit_unless_build\nbase_folder\nappcast_setup\nend\n\ndef execute!\ncreate_appcast_folder_and_files\nremove_old_zip_create_new_zip\nfile_stats\ncreate_key\ncreate_appcast_xml\ncopy_archive_to_appcast_path\nend\n\n# Only works for Release builds\n# Exits upon failure\ndef require_release_build\nif ENV[\"BUILD_STYLE\"] == 'Debug'\nlog_message(\"Distribution target requires 'Release' build style\")\nexit\nend\nend\n\n# Exits if no config.yml file found.\ndef load_config\nconfig_file_path = \"#{YAML_FOLDER_PATH}/config.yml\"\nunless File.exists?(config_file_path)\nlog_message(\"No 'config.yml' file found in project directory.\")\nexit\nend\n@config = YAML.load_file(config_file_path)\nend\n\ndef exit_unless_build \nunless @config['build_now'] == 'YES'\nlog_message(\"The 'build_now' setting in 'config.yml' set to 'NO'\\nIf you are wanting to include this script in\\nthe build process change this setting to 'YES'\")\nexit\nend\nend\n\ndef project_setup\n@proj_dir         = ENV['BUILT_PRODUCTS_DIR']\n@proj_name        = ENV['PROJECT_NAME']\n@version          = `defaults read \"#{@proj_dir}/#{@proj_name}.app/Contents/Info\" CFBundleShortVersionString`\n@build_number     = `defaults read \"#{@proj_dir}/#{@proj_name}.app/Contents/Info\" CFBundleVersion`\n@archive_filename = \"#{@proj_name}-#{@version.chomp}.zip\"\n@archive_path     = \"#{@proj_dir}/#{@archive_filename}\"\nend\n\ndef appcast_setup\n@appcast_xml_name      = @config['appcast_xml_name'].chomp\n@appcast_proj_folder   = \"#{@config['appcast_basefolder']}\".chomp\n@appcast_xml_path      = \"#{@appcast_proj_folder}/#{@appcast_xml_name}\"\n@download_base_url     = @config['download_base_url']\n@keychain_privkey_name = @config['keychain_privkey_name']\n@css_file_name         = @config['css_file_name']\n@releasenotes_url      = \"#{@download_base_url}release-notes.html\"\n@download_url          = \"#{@download_base_url}#{@archive_filename}\"\n@appcast_download_url  = \"#{@download_base_url}#{@appcast_xml_name}\"\nend\n\ndef base_folder\n@appcast_basefolder = @config['appcast_basefolder'].chomp\nFile.expand_path(@appcast_basefolder) if @appcast_basefolder.start_with?(\"~\")\nend\n\ndef remove_old_zip_create_new_zip\nDir.chdir(@proj_dir)\n`rm -f #{@proj_name}*.zip`\n`ditto -c -k --keepParent -rsrc \"#{@proj_name}.app\" \"#{@archive_filename}\"`\nend\n\ndef copy_archive_to_appcast_path\nbegin\nFileUtils.cp(@archive_path, @appcast_proj_folder)\nrescue\nlog_message(\"There was an error copying the zip file to appcast folder\\nError: #{$!}\")\nend\nend\n\ndef file_stats\n@size     = File.size(@archive_filename)\n@pubdate  = `date +\"%a, %d %b %G %T %z\"`\nend\n\ndef get_key\nkey_xml = `security find-generic-password -g -s \"#{@keychain_privkey_name}\" 2>&1 1>/dev/null`\nxml = key_xml.gsub(/\\\\012/, \"\\n\")\nxml = \"<?xml version=\".concat(xml.split(\"<?xml version=\")[1])\ndoc = Nokogiri::XML(xml)\ndoc.xpath(\"//key\").xpath(\"//string\").text\nend\n\ndef create_key\nkey = get_key\n\nif key.empty?\nlog_message(\"Unable to load signing private key with name '#{@keychain_privkey_name}' from keychain\\nFor file #{@archive_filename}\")\nexit\nend\n\nhashed     = OpenSSL::Digest::SHA1.digest(File.read(\"#{@archive_path}\"))\ndsa        = OpenSSL::PKey::DSA.new(key)\ndss1       = OpenSSL::Digest::DSS1.new\nsign       = dsa.sign(dss1, hashed)\n@signature = Base64.encode64(sign)\n@signature = @signature.gsub(\"\\n\", '')\n\nif @signature.empty?\nlog_message(\"Unable to sign file #{@archive_filename}\")\nexit\nelse\nlog_message(\"New signature is \\n#{@signature}\")\nend\nend\n\ndef create_appcast_xml\nappcast_xml =\n\"<?xml version=\\\"1.0\\\" encoding=\\\"utf-8\\\"?>\n<rss version=\\\"2.0\\\" xmlns:sparkle=\\\"http://www.andymatuschak.org/xml-namespaces/sparkle\\\"  xmlns:dc=\\\"http://purl.org/dc/elements/1.1/\\\">\n<channel>\n<title>#{@proj_name}</title>\n<link>#{@appcast_download_url}</link>\n<description>Most recent changes with links to updates.</description>\n<language>en</language>\n<item>\n<title>Version #{@version.chomp}</title>\n<sparkle:releaseNotesLink>\n#{@releasenotes_url}\n</sparkle:releaseNotesLink>\n<pubDate>#{@pubdate.chomp}</pubDate>\n<enclosure url=\\\"#{@download_url.chomp}\\\"\nlength=\\\"#{@size}\\\"\ntype=\\\"application/octet-stream\\\"\nsparkle:version=\\\"#{@build_number.chomp}\\\"\nsparkle:shortVersionString=\\\"#{@version.chomp}\\\"\nsparkle:dsaSignature=\\\"#{@signature.chomp}\\\"/>\n</item>\n</channel>\n</rss>\"\n\nFile.open(@appcast_xml_path, 'w') { |f| f.puts appcast_xml }\nend\n\n# Creates the appcast folder if it does not exist\n# or is accidently moved or deleted\n# Creates an html file with generic note template if it does not exist\n# This way the notes file is named correctly as well\n# Creates a css file named from yml file with default css\ndef create_appcast_folder_and_files\nbase_folder = @appcast_basefolder\nproject_folder = @appcast_proj_folder\n\nnotes_file = \"#{project_folder}/#{File.basename(@releasenotes_url.chomp)}\"\ncss_file_path = \"#{project_folder}/#{@css_file_name}\"\n\nDir.mkdir(base_folder)    unless File.exists?(base_folder)\nDir.mkdir(project_folder) unless File.exists?(project_folder)\n\n# File.open(notes_file, 'w') { |f| f.puts release_notes_generic_text } unless File.exists?(notes_file)\n# File.open(css_file_path, 'w') { |f| f.puts decompressed_css } unless File.exists?(css_file_path)\nend\n\ndef log_message(msg)\nputs \"\\n\\n----------------------------------------------\"\nputs MESSAGE_HEADER\nputs msg\nputs \"----------------------------------------------\\n\\n\"\nend\n\ndef decompressed_css\nreturn css_text.gsub(/\\{\\s+/, \"{\\n\\t\").gsub(/;/, \";\\n\\t\").gsub(/^\\s+\\}/, \"}\").gsub(/^\\s+/, \"\\t\")\nend\n\ndef release_notes_generic_text\nreturn \"\n<html>\n<head>\n<meta http-equiv=\\\"content-type\\\" content=\\\"text/html;charset=utf-8\\\">\n<title>What's new in #{@proj_name}?</title>\n<meta name=\\\"robots\\\" content=\\\"anchors\\\">\n<link href=\\\"#{@css_file_name}\\\" type=\\\"text/css\\\" rel=\\\"stylesheet\\\" media=\\\"all\\\">\n</head>\n\n<body>\n<br />\n<table class=\\\"dots\\\" width=\\\"100%\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" summary=\\\"Two column table with heading\\\">\n<tr>\n<td class=\\\"blue\\\" colspan=\\\"2\\\">\n<h3>#{@proj_name} #{@version.chomp} Release Notes</h3>\n</td>\n</tr>\n<tr>\n<td valign=\\\"top\\\">\n<p>\n<ul>\n<li>DESCRIPTION</li>\n</ul>\n</p>\n</td>\n</tr>\n</table>\n<br>\n</body>\n\n</html>\"\nend\n\n# This css will be expanded to a normal, easily editable form when written to file\ndef css_text\nreturn \"\nbody { margin: 2px 12px 12px; }\nh1 h2 h3 p ol ul a a:hover { font-family: \\\"Lucida Grande\\\", Arial, sans-serif; }\n    h1 { font-size: 11pt; margin-bottom: 0; }\n    h2 { font-size: 9pt; margin-top: 0; margin-bottom: -10px; }\n    h3 { font-size: 9pt; font-weight: bold; margin-top: -4px; margin-bottom: -4px; }\n    p { font-size: 9pt; line-height: 12pt; text-decoration: none; }\n    ol { font-size: 9pt; line-height: 12pt; list-style-position: outside; margin-top: 12px; margin-bottom: 12px; margin-left: -18px; padding-left: 40px; }\n    ol li { margin-top: 6px; margin-bottom: 6px; }\n    ol p { margin-top: 6px; margin-bottom: 6px; }\n    ul { font-size: 9pt; line-height: 12pt; list-style-type: square; list-style-position: outside; margin-top: 12px; margin-bottom: 12px; margin-left: -24px; padding-left: 40px; }\n    ul li { margin-top: 6px; margin-bottom: 6px; }\n    ul p { margin-top: 6px; margin-bottom: 6px; }\n    a { color: #00f; font-size: 9pt; line-height: 12pt; text-decoration: none; }\n        a:hover { color: #00f; text-decoration: underline; }\n            hr { text-decoration: none; border: solid 1px #bfbfbf; }\n                td { padding: 6px; }\n                #banner { background-color: #f2f2f2; background-repeat: no-repeat; padding: -2px 6px 0; position: fixed; top: 0; left: 0; width: 100%; height: 1.2em; float: left; border: solid 1px #bfbfbf; }\n                #caticon { margin-top: 3px; margin-bottom: -3px; margin-right: 5px; float: left; }\n                #pagetitle { margin-top: 12px; margin-bottom: 0px; margin-left: 40px; width: 88%; border: solid 1px #fff; }\n                #mainbox { margin-top: 2349px; padding-right: 6px; }\n                #taskbox { background-color: #e6edff; list-style-type: decimal; list-style-position: outside; margin: 12px 0; padding: 2px 12px; border: solid 1px #bfbfbf; }\n                #taskbox h2 { margin-top: 8; margin-bottom: -4px; }\n                #machelp { position: absolute; top: 2px; left: 10px ; }\n                #index { background-color: #f2f2f2; padding-right: 25px; top: 2px; right: 12px; width: auto; float: right; }\n                #next { position: absolute; top: 49px; left: 88%; }\n                #asindent { margin-left: 22px; font-size: 9pt; font-family: Verdana, Courier, sans-serif; }\n                .bread { color: #00f; font-size: 8pt; margin: -9px 0 -6px; }\n                    .leftborder { color: #00f; font-size: 8pt; margin: -9px 0 -6px; padding-top: 2px; padding-bottom: 3px; padding-left: 8px; border-left: 1px solid #bfbfbf; }\n                        .mult { margin-top: -8px; }\n                        .blue { background-color: #e6edff; margin-top: -3px; margin-bottom: -3px; padding-top: -3px; padding-bottom: -3px; }\n                            .rightfloater { float: right; margin-left: 15px; }\n                            .rules { border-bottom: 1px dotted #ccc; }\n                                .dots { border: dotted 1px #ccc; }\n                                    .seealso { margin-top: 4px; margin-bottom: 4px; }\n                                    code { color: black; font-size: 9pt; font-family: Verdana, Courier, sans-serif; }\"\n                                    end\n                                    end\n                                    \n                                    if __FILE__ == $0\n                                    appcast = AppCast.new\n                                    appcast.execute!\n                                    appcast.log_message(\"It appears all went well with the build script!\")\n                                    end";
+			shellScript = "#!/usr/bin/env ruby -w\n#\n#################################################################################\n#                                                                               #\n#     appcast_automation.rb                                                     #\n#                                                                               #\n#     author:   Craig Williams                                                  #\n#     created:  2009-01-09                                                      #\n#                                                                               #\n#################################################################################\n#                                                                               #\n#     This program is free software: you can redistribute it and/or modify      #\n#     it under the terms of the GNU General Public License as published by      #\n#     the Free Software Foundation, either version 3 of the License, or         #\n#     (at your option) any later version.                                       #\n#                                                                               #\n#     This program is distributed in the hope that it will be useful,           #\n#     but WITHOUT ANY WARRANTY; without even the implied warranty of            #\n#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the             #\n#     GNU General Public License for more details.                              #\n#                                                                               #\n#     You should have received a copy of the GNU General Public License         #\n#     along with this program.  If not, see <http://www.gnu.org/licenses/>.     #\n#                                                                               #\n#################################################################################\n\nclass AppCast\nrequire 'rubygems'\nrequire 'yaml'\nrequire 'tmpdir'\nrequire 'fileutils'\nrequire 'openssl'\nrequire 'nokogiri'\nrequire 'base64'\n\nMESSAGE_HEADER   = 'RUN SCRIPT DURING BUILD MESSAGE'\nYAML_FOLDER_PATH = \"#{ENV['HOME']}/Sites/moje/osx/DeezPlayer-website/dist/\"\n\ndef initialize\n@signature = ''\nrequire_release_build\nproject_setup\nload_config\n\n# the build_now setting in the config.yml file\n# determines whether you want to perform this script\n# set to 'NO' until you are ready to publish\nexit_unless_build\nbase_folder\nappcast_setup\nend\n\ndef execute!\ncreate_appcast_folder_and_files\nremove_old_zip_create_new_zip\nfile_stats\ncreate_key\ncreate_appcast_xml\ncopy_archive_to_appcast_path\nend\n\n# Only works for Release builds\n# Exits upon failure\ndef require_release_build\nif ENV[\"BUILD_STYLE\"] == 'Debug'\nlog_message(\"Distribution target requires 'Release' build style\")\nexit\nend\nend\n\n# Exits if no config.yml file found.\ndef load_config\nconfig_file_path = \"#{YAML_FOLDER_PATH}/config.yml\"\nunless File.exists?(config_file_path)\nlog_message(\"No 'config.yml' file found in project directory.\")\nexit\nend\n@config = YAML.load_file(config_file_path)\nend\n\ndef exit_unless_build \nunless @config['build_now'] == 'YES'\nlog_message(\"The 'build_now' setting in 'config.yml' set to 'NO'\\nIf you are wanting to include this script in\\nthe build process change this setting to 'YES'\")\nexit\nend\nend\n\ndef project_setup\n@proj_dir         = ENV['BUILT_PRODUCTS_DIR']\n@proj_name        = ENV['PROJECT_NAME']\n@version          = `defaults read \"#{@proj_dir}/#{@proj_name}.app/Contents/Info\" CFBundleShortVersionString`\n@build_number     = `defaults read \"#{@proj_dir}/#{@proj_name}.app/Contents/Info\" CFBundleVersion`\n@archive_filename = \"#{@proj_name}-#{@version.chomp}.zip\"\n@archive_path     = \"#{@proj_dir}/#{@archive_filename}\"\nend\n\ndef appcast_setup\n@appcast_xml_name      = @config['appcast_xml_name'].chomp\n@appcast_proj_folder   = \"#{@config['appcast_basefolder']}\".chomp\n@appcast_xml_path      = \"#{@appcast_proj_folder}/#{@appcast_xml_name}\"\n@download_base_url     = @config['download_base_url']\n@keychain_privkey_name = @config['keychain_privkey_name']\n@css_file_name         = @config['css_file_name']\n@releasenotes_url      = \"#{@download_base_url}release-notes.html\"\n@download_url          = \"#{@download_base_url}#{@archive_filename}\"\n@appcast_download_url  = \"#{@download_base_url}#{@appcast_xml_name}\"\nend\n\ndef base_folder\n@appcast_basefolder = @config['appcast_basefolder'].chomp\nFile.expand_path(@appcast_basefolder) if @appcast_basefolder.start_with?(\"~\")\nend\n\ndef remove_old_zip_create_new_zip\nDir.chdir(@proj_dir)\n`rm -f #{@proj_name}*.zip`\n`ditto -c -k --keepParent -rsrc \"#{@proj_name}.app\" \"#{@archive_filename}\"`\nend\n\ndef copy_archive_to_appcast_path\nbegin\nFileUtils.cp(@archive_path, @appcast_proj_folder)\nrescue\nlog_message(\"There was an error copying the zip file to appcast folder\\nError: #{$!}\")\nend\nend\n\ndef file_stats\n@size     = File.size(@archive_filename)\n@pubdate  = `date +\"%a, %d %b %G %T %z\"`\nend\n\ndef get_key\nkey_xml = `security find-generic-password -g -s \"#{@keychain_privkey_name}\" 2>&1 1>/dev/null`\nxml = key_xml.gsub(/\\\\012/, \"\\n\")\nxml = \"<?xml version=\".concat(xml.split(\"<?xml version=\")[1])\ndoc = Nokogiri::XML(xml)\ndoc.xpath(\"//key\").xpath(\"//string\").text\nend\n\ndef create_key\nkey = get_key\n\nif key.empty?\nlog_message(\"Unable to load signing private key with name '#{@keychain_privkey_name}' from keychain\\nFor file #{@archive_filename}\")\nexit\nend\n\nhashed     = OpenSSL::Digest::SHA1.digest(File.read(\"#{@archive_path}\"))\ndsa        = OpenSSL::PKey::DSA.new(key)\ndss1       = OpenSSL::Digest::DSS1.new\nsign       = dsa.sign(dss1, hashed)\n@signature = Base64.encode64(sign)\n@signature = @signature.gsub(\"\\n\", '')\n\nif @signature.empty?\nlog_message(\"Unable to sign file #{@archive_filename}\")\nexit\nelse\nlog_message(\"New signature is \\n#{@signature}\")\nend\nend\n\ndef create_appcast_xml\nappcast_xml =\n\"<?xml version=\\\"1.0\\\" encoding=\\\"utf-8\\\"?>\n<rss version=\\\"2.0\\\" xmlns:sparkle=\\\"http://www.andymatuschak.org/xml-namespaces/sparkle\\\"  xmlns:dc=\\\"http://purl.org/dc/elements/1.1/\\\">\n<channel>\n<title>#{@proj_name}</title>\n<link>#{@appcast_download_url}</link>\n<description>Most recent changes with links to updates.</description>\n<language>en</language>\n<item>\n<title>Version #{@version.chomp}</title>\n<sparkle:releaseNotesLink>\n#{@releasenotes_url}\n</sparkle:releaseNotesLink>\n<pubDate>#{@pubdate.chomp}</pubDate>\n<enclosure url=\\\"#{@download_url.chomp}\\\"\nlength=\\\"#{@size}\\\"\ntype=\\\"application/octet-stream\\\"\nsparkle:version=\\\"#{@build_number.chomp}\\\"\nsparkle:shortVersionString=\\\"#{@version.chomp}\\\"\nsparkle:dsaSignature=\\\"#{@signature.chomp}\\\"/>\n</item>\n</channel>\n</rss>\"\n\nFile.open(@appcast_xml_path, 'w') { |f| f.puts appcast_xml }\nend\n\n# Creates the appcast folder if it does not exist\n# or is accidently moved or deleted\n# Creates an html file with generic note template if it does not exist\n# This way the notes file is named correctly as well\n# Creates a css file named from yml file with default css\ndef create_appcast_folder_and_files\nbase_folder = @appcast_basefolder\nproject_folder = @appcast_proj_folder\n\nnotes_file = \"#{project_folder}/#{File.basename(@releasenotes_url.chomp)}\"\ncss_file_path = \"#{project_folder}/#{@css_file_name}\"\n\nDir.mkdir(base_folder)    unless File.exists?(base_folder)\nDir.mkdir(project_folder) unless File.exists?(project_folder)\n\n# File.open(notes_file, 'w') { |f| f.puts release_notes_generic_text } unless File.exists?(notes_file)\n# File.open(css_file_path, 'w') { |f| f.puts decompressed_css } unless File.exists?(css_file_path)\nend\n\ndef log_message(msg)\nputs \"\\n\\n----------------------------------------------\"\nputs MESSAGE_HEADER\nputs msg\nputs \"----------------------------------------------\\n\\n\"\nend\n\ndef decompressed_css\nreturn css_text.gsub(/\\{\\s+/, \"{\\n\\t\").gsub(/;/, \";\\n\\t\").gsub(/^\\s+\\}/, \"}\").gsub(/^\\s+/, \"\\t\")\nend\n\ndef release_notes_generic_text\nreturn \"\n<html>\n<head>\n<meta http-equiv=\\\"content-type\\\" content=\\\"text/html;charset=utf-8\\\">\n<title>What's new in #{@proj_name}?</title>\n<meta name=\\\"robots\\\" content=\\\"anchors\\\">\n<link href=\\\"#{@css_file_name}\\\" type=\\\"text/css\\\" rel=\\\"stylesheet\\\" media=\\\"all\\\">\n</head>\n\n<body>\n<br />\n<table class=\\\"dots\\\" width=\\\"100%\\\" border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" summary=\\\"Two column table with heading\\\">\n<tr>\n<td class=\\\"blue\\\" colspan=\\\"2\\\">\n<h3>#{@proj_name} #{@version.chomp} Release Notes</h3>\n</td>\n</tr>\n<tr>\n<td valign=\\\"top\\\">\n<p>\n<ul>\n<li>DESCRIPTION</li>\n</ul>\n</p>\n</td>\n</tr>\n</table>\n<br>\n</body>\n\n</html>\"\nend\n\n# This css will be expanded to a normal, easily editable form when written to file\ndef css_text\nreturn \"\nbody { margin: 2px 12px 12px; }\nh1 h2 h3 p ol ul a a:hover { font-family: \\\"Lucida Grande\\\", Arial, sans-serif; }\n    h1 { font-size: 11pt; margin-bottom: 0; }\n    h2 { font-size: 9pt; margin-top: 0; margin-bottom: -10px; }\n    h3 { font-size: 9pt; font-weight: bold; margin-top: -4px; margin-bottom: -4px; }\n    p { font-size: 9pt; line-height: 12pt; text-decoration: none; }\n    ol { font-size: 9pt; line-height: 12pt; list-style-position: outside; margin-top: 12px; margin-bottom: 12px; margin-left: -18px; padding-left: 40px; }\n    ol li { margin-top: 6px; margin-bottom: 6px; }\n    ol p { margin-top: 6px; margin-bottom: 6px; }\n    ul { font-size: 9pt; line-height: 12pt; list-style-type: square; list-style-position: outside; margin-top: 12px; margin-bottom: 12px; margin-left: -24px; padding-left: 40px; }\n    ul li { margin-top: 6px; margin-bottom: 6px; }\n    ul p { margin-top: 6px; margin-bottom: 6px; }\n    a { color: #00f; font-size: 9pt; line-height: 12pt; text-decoration: none; }\n        a:hover { color: #00f; text-decoration: underline; }\n            hr { text-decoration: none; border: solid 1px #bfbfbf; }\n                td { padding: 6px; }\n                #banner { background-color: #f2f2f2; background-repeat: no-repeat; padding: -2px 6px 0; position: fixed; top: 0; left: 0; width: 100%; height: 1.2em; float: left; border: solid 1px #bfbfbf; }\n                #caticon { margin-top: 3px; margin-bottom: -3px; margin-right: 5px; float: left; }\n                #pagetitle { margin-top: 12px; margin-bottom: 0px; margin-left: 40px; width: 88%; border: solid 1px #fff; }\n                #mainbox { margin-top: 2349px; padding-right: 6px; }\n                #taskbox { background-color: #e6edff; list-style-type: decimal; list-style-position: outside; margin: 12px 0; padding: 2px 12px; border: solid 1px #bfbfbf; }\n                #taskbox h2 { margin-top: 8; margin-bottom: -4px; }\n                #machelp { position: absolute; top: 2px; left: 10px ; }\n                #index { background-color: #f2f2f2; padding-right: 25px; top: 2px; right: 12px; width: auto; float: right; }\n                #next { position: absolute; top: 49px; left: 88%; }\n                #asindent { margin-left: 22px; font-size: 9pt; font-family: Verdana, Courier, sans-serif; }\n                .bread { color: #00f; font-size: 8pt; margin: -9px 0 -6px; }\n                    .leftborder { color: #00f; font-size: 8pt; margin: -9px 0 -6px; padding-top: 2px; padding-bottom: 3px; padding-left: 8px; border-left: 1px solid #bfbfbf; }\n                        .mult { margin-top: -8px; }\n                        .blue { background-color: #e6edff; margin-top: -3px; margin-bottom: -3px; padding-top: -3px; padding-bottom: -3px; }\n                            .rightfloater { float: right; margin-left: 15px; }\n                            .rules { border-bottom: 1px dotted #ccc; }\n                                .dots { border: dotted 1px #ccc; }\n                                    .seealso { margin-top: 4px; margin-bottom: 4px; }\n                                    code { color: black; font-size: 9pt; font-family: Verdana, Courier, sans-serif; }\"\n                                    end\n                                    end\n                                    \n                                    if __FILE__ == $0\n                                    appcast = AppCast.new\n                                    appcast.execute!\n                                    appcast.log_message(\"It appears all went well with the build script!\")\n                                    end";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -349,7 +350,7 @@
 /* Begin PBXTargetDependency section */
 		59AF236F1591C59400FD9E05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 59FAC26615910053007B0F87 /* DeezerPlayer */;
+			target = 59FAC26615910053007B0F87 /* DeezPlayer */;
 			targetProxy = 59AF236E1591C59400FD9E05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,9 +436,9 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DeezerPlayer/DeezerPlayer-Prefix.pch";
-				INFOPLIST_FILE = "DeezerPlayer/DeezerPlayer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DeezPlayer/DeezPlayer-Prefix.pch";
+				INFOPLIST_FILE = "DeezPlayer/DeezPlayer-Info.plist";
+				PRODUCT_NAME = DeezPlayer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -450,9 +451,9 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DeezerPlayer/DeezerPlayer-Prefix.pch";
-				INFOPLIST_FILE = "DeezerPlayer/DeezerPlayer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DeezPlayer/DeezPlayer-Prefix.pch";
+				INFOPLIST_FILE = "DeezPlayer/DeezPlayer-Info.plist";
+				PRODUCT_NAME = DeezPlayer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -469,7 +470,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59FAC26115910052007B0F87 /* Build configuration list for PBXProject "DeezerPlayer" */ = {
+		59FAC26115910052007B0F87 /* Build configuration list for PBXProject "DeezPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59FAC28315910053007B0F87 /* Debug */,
@@ -478,7 +479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59FAC28515910053007B0F87 /* Build configuration list for PBXNativeTarget "DeezerPlayer" */ = {
+		59FAC28515910053007B0F87 /* Build configuration list for PBXNativeTarget "DeezPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59FAC28615910053007B0F87 /* Debug */,

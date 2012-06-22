@@ -41,7 +41,7 @@
 				<array class="NSMutableArray" key="NSMenuItems">
 					<object class="NSMenuItem" id="694149608">
 						<reference key="NSMenu" ref="649796088"/>
-						<string key="NSTitle">DeezerPlayer</string>
+						<string key="NSTitle">DeezPlayer</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
@@ -55,11 +55,11 @@
 						</object>
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="110575045">
-							<string key="NSTitle">DeezerPlayer</string>
+							<string key="NSTitle">DeezPlayer</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="238522557">
 									<reference key="NSMenu" ref="110575045"/>
-									<string key="NSTitle">About DeezerPlayer</string>
+									<string key="NSTitle">About DeezPlayer</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -132,7 +132,7 @@
 								</object>
 								<object class="NSMenuItem" id="755159360">
 									<reference key="NSMenu" ref="110575045"/>
-									<string key="NSTitle">Hide DeezerPlayer</string>
+									<string key="NSTitle">Hide DeezPlayer</string>
 									<string key="NSKeyEquiv">h</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -170,7 +170,7 @@
 								</object>
 								<object class="NSMenuItem" id="632727374">
 									<reference key="NSMenu" ref="110575045"/>
-									<string key="NSTitle">Quit DeezerPlayer</string>
+									<string key="NSTitle">Quit DeezPlayer</string>
 									<string key="NSKeyEquiv">q</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1285,7 +1285,7 @@
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="105068016">
 									<reference key="NSMenu" ref="992780483"/>
-									<string key="NSTitle">DeezerPlayer Help</string>
+									<string key="NSTitle">DeezPlayer Help</string>
 									<string key="NSKeyEquiv">?</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1309,7 +1309,7 @@
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<object class="NSView" key="NSWindowView" id="992295071">
-					<reference key="NSNextResponder"/>
+					<nil key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
 						<object class="WebView" id="507156621">
@@ -1334,7 +1334,6 @@
 							</set>
 							<string key="NSFrameSize">{1200, 700}</string>
 							<reference key="NSSuperview" ref="992295071"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView"/>
 							<string key="FrameName"/>
 							<string key="GroupName"/>
@@ -1351,8 +1350,6 @@
 						</object>
 					</array>
 					<string key="NSFrameSize">{1200, 700}</string>
-					<reference key="NSSuperview"/>
-					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="507156621"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>

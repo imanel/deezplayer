@@ -2,11 +2,12 @@
 
 ### Edge
 
+- New: Rename project to DeezPlayer
 - Fix: Deactivate application after closing window
 
 ### v1.2
 
-- New: DeezerPlayer will autoupdate from now on
+- New: DeezPlayer will autoupdate from now on
 
 ### v1.1
 

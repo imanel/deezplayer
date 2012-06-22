@@ -1,6 +1,6 @@
 //
 //  main.m
-//  DeezerPlayer
+//  DeezPlayer
 //
 //  Created by Bernard Potocki on 19.06.2012.
 //  Copyright (c) 2012 Rebased. All rights reserved.
