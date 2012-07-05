@@ -33,7 +33,7 @@
 	<key>NSPrincipalClass</key>
 	<string>MediaKeyApp</string>
 	<key>SUFeedURL</key>
-	<string>http://imanel.org/DeezPlayer/dist/appcast.xml</string>
+	<string>http://deezplayer.net/dist/appcast.xml</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 </dict>
