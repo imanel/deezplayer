@@ -1,9 +1,11 @@
 html {
+  visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity 2s ease-out;
   transition: opacity 2s ease-out;
 }
 
 html.unhide {
+  visibility: visible;
   opacity: 1;
 }

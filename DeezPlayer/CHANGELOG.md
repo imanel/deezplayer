@@ -3,6 +3,7 @@
 ### Edge
 
 - New: Splash screen(via Deezer guidelines)
+- Fix: Prevent clicking on links while preloading page
 
 ### v1.3
 
