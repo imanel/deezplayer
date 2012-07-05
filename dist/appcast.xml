@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
 <title>DeezPlayer</title>
-<link>http://imanel.org/DeezPlayer/dist/appcast.xml</link>
+<link>http://deezplayer.net/dist/appcast.xml</link>
 <description>Most recent changes with links to updates.</description>
 <language>en</language>
 <item>
 <title>Version 1.3</title>
 <sparkle:releaseNotesLink>
-http://imanel.org/DeezPlayer/dist/release-notes.html
+http://deezplayer.net/dist/release-notes.html
 </sparkle:releaseNotesLink>
 <pubDate>Sat, 23 Jun 2012 01:12:23 +0200</pubDate>
-<enclosure url="http://imanel.org/DeezPlayer/dist/DeezPlayer-1.3.zip"
+<enclosure url="http://deezplayer.net/dist/DeezPlayer-1.3.zip"
 length="682817"
 type="application/octet-stream"
 sparkle:version="131"
