@@ -1,6 +1,6 @@
 ## Changelog
 
-### Edge
+### v1.4
 
 - New: Splash screen(via Deezer guidelines)
 - Fix: Prevent clicking on links while preloading page
