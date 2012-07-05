@@ -1,5 +1,9 @@
 ## Changelog
 
+### Edge
+
+- New: Splash screen(via Deezer guidelines)
+
 ### v1.3
 
 - New: Rename project to DeezPlayer
