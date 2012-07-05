@@ -25,14 +25,14 @@ h1, h2 {
   margin: 0;
   padding: 0;
   line-height: 100%;
-  padding-left: 110px;
   text-align: center;
 }
 
 h1 {
   height: 100px;
   font-size: 60px;
-  background: url(../img/deezer-logo.png) no-repeat;
+  padding-left: 60px;
+  background: url(../img/deezer-logo.png) no-repeat 0px 8px;
 }
 
 h2 {
