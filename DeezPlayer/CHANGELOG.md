@@ -1,6 +1,10 @@
 ## Changelog
 
-### v1.4
+### Edge
+
+- Fix: Prevent switching to discrete GPU on Macbook Pro(early 2011)
+
+### v1.4.0
 
 - New: Splash screen(via Deezer guidelines)
 - Fix: Prevent clicking on links while preloading page
