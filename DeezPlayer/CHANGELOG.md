@@ -1,6 +1,6 @@
 ## Changelog
 
-### Edge
+### v1.4.1
 
 - Fix: Prevent switching to discrete GPU on Macbook Pro(early 2011)
 
