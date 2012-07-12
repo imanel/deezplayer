@@ -185,19 +185,13 @@ h1 h2 h3 p ol ul a a:hover {
 }
 
 .fix:before, .new:before {
-	color: white;
-	margin-right: 3px;
-	font-size: 0.8em;
-	padding: 1px 4px;
-	border-radius: 5px;
+	font-weight: bold;
 }
 
 .fix:before {
-	content: "FIX";
-	background: red;
+	content: "Fix: ";
 }
 
 .new:before {
-	content: "NEW";
-	background: blue;
+	content: "New: ";
 }
