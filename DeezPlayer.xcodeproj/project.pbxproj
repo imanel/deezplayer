@@ -22,6 +22,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		2F7609BC1819CD6B00C71187 /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7609BB1819CD6B00C71187 /* MenuController.m */; };
 		5946149215952E7F00749A65 /* custom.js in Resources */ = {isa = PBXBuildFile; fileRef = 59AB0A0B159146600010365B /* custom.js */; };
 		59AB09E1159103920010365B /* MediaKeyApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FAC291159100D2007B0F87 /* MediaKeyApp.m */; };
 		59AB09E2159103AD0010365B /* NSObject+SPInvocationGrabbing.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CB4DF115910259009B3C40 /* NSObject+SPInvocationGrabbing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -69,6 +70,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F7609BA1819CD6B00C71187 /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuController.h; sourceTree = "<group>"; };
+		2F7609BB1819CD6B00C71187 /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuController.m; sourceTree = "<group>"; };
 		59AB09EE15910EC00010365B /* deezer-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deezer-logo.png"; sourceTree = "<group>"; };
 		59AB09F1159111D40010365B /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		59AB09F2159111D40010365B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -231,6 +234,8 @@
 			children = (
 				59FAC28E159100D2007B0F87 /* MainWindowController.h */,
 				59FAC28F159100D2007B0F87 /* MainWindowController.m */,
+				2F7609BA1819CD6B00C71187 /* MenuController.h */,
+				2F7609BB1819CD6B00C71187 /* MenuController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -331,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7609BC1819CD6B00C71187 /* MenuController.m in Sources */,
 				59FAC27815910053007B0F87 /* main.m in Sources */,
 				59AB09E4159103DA0010365B /* AppDelegate.m in Sources */,
 				59AB09E5159103E70010365B /* MainWindowController.m in Sources */,
