@@ -1,5 +1,9 @@
 ## Changelog
 
+### v1.5.0
+
+- New: Add dock menus to control play/resume, next and previous
+
 ### v1.4.1
 
 - Fix: Prevent switching to discrete GPU on Macbook Pro(early 2011)
