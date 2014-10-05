@@ -80,15 +80,15 @@
 }
 
 - (void)togglePlayPause {
-    [webView stringByEvaluatingJavaScriptFromString:@"playercontrol.$btnPause.css('display') === 'none' ? playercontrol.doAction('play') : playercontrol.doAction('pause');"];
+    [webView stringByEvaluatingJavaScriptFromString:@"dzPlayer.control.togglePause();"];
 }
 
 - (void)playNext {
-    [webView stringByEvaluatingJavaScriptFromString:@"playercontrol.doAction('next');"];
+    [webView stringByEvaluatingJavaScriptFromString:@"dzPlayer.control.nextSong();"];
 }
 
 - (void)playPrev {
-    [webView stringByEvaluatingJavaScriptFromString:@"playercontrol.doAction('prev');"];
+    [webView stringByEvaluatingJavaScriptFromString:@"dzPlayer.control.prevSong();"];
 }
 
 - (void)setBackground {
