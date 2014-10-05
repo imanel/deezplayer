@@ -6,17 +6,17 @@
 <description>Most recent changes with links to updates.</description>
 <language>en</language>
 <item>
-<title>Version 1.5.0</title>
+<title>Version 1.5.1</title>
 <sparkle:releaseNotesLink>
 http://deezplayer.net/dist/release-notes.html
 </sparkle:releaseNotesLink>
-<pubDate>Fri, 25 Oct 2013 18:19:44 +0200</pubDate>
-<enclosure url="http://deezplayer.net/dist/DeezPlayer-1.5.0.zip"
-length="652387"
+<pubDate>Sun, 05 Oct 2014 15:03:32 +0200</pubDate>
+<enclosure url="http://deezplayer.net/dist/DeezPlayer-1.5.1.zip"
+length="656719"
 type="application/octet-stream"
-sparkle:version="150"
-sparkle:shortVersionString="1.5.0"
-sparkle:dsaSignature="MCwCFCOIIEraHjJsFIXSXur2nepDjTEEAhQtBHrwvvyAwNMCsBsAnYxOvIDDPw=="/>
+sparkle:version="151"
+sparkle:shortVersionString="1.5.1"
+sparkle:dsaSignature="MCwCFA8n3pOQPK1oC82Vci+f/y44t2zhAhQYrM8luxTmtJS4e6f3cQS9SDBLtg=="/>
 </item>
 </channel>
 </rss>
