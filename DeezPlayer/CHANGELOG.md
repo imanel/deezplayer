@@ -1,5 +1,9 @@
 ## Changelog
 
+### v1.5.1
+
+- Fix: Make play/pause buttons work again after Deezer layout update
+
 ### v1.5.0
 
 - New: Add dock menus to control play/resume, next and previous
