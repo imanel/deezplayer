@@ -1,6 +1,7 @@
 const electron = require('electron')
 const app = electron.app
 const BrowserWindow = electron.BrowserWindow
+const globalShortcut = electron.globalShortcut
 
 let mainWindow
 
@@ -11,8 +12,32 @@ function displaySize() {
   return {width, height}
 }
 
+function registerGlobalShortcuts() {
+  globalShortcut.register('MediaPlayPause', function () {
+    console.log("Play/Pause pressed")
+  })
+
+  globalShortcut.register('MediaNextTrack', function () {
+    console.log("Next pressed")
+  })
+
+  globalShortcut.register('MediaPreviousTrack', function () {
+    console.log("Previous pressed")
+  })
+
+  globalShortcut.register('MediaStop', function () {
+    console.log("Stop pressed")
+  })
+}
+
 app.on('ready', function() {
   let mainWindow = new BrowserWindow(displaySize())
 
   mainWindow.loadURL('http://www.deezer.com')
+
+  registerGlobalShortcuts()
+})
+
+app.on('will-quit', function () {
+  globalShortcut.unregisterAll()
 })
