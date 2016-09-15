@@ -4,7 +4,9 @@
   "description": "Best way to experience Deezer",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,11 @@
     "coffee-script": "^1.10.0"
   },
   "devDependencies": {
-    "electron": "^1.4.0"
+    "electron": "^1.4.0",
+    "electron-builder": "^6.7.6"
+  },
+  "build": {
+    "appId": "org.imanel.deezplayer",
+    "asar": false
   }
 }
