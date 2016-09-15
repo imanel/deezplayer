@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "name": "DeezPlayer",
+  "description": "Best way to experience Deezer",
+  "author": "Bernard Potocki <bernard.potocki@imanel.org>",
+  "license": "MIT",
+
+  "main": "main.js",
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}
