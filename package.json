@@ -2,7 +2,7 @@
   "name": "DeezPlayer",
   "version": "2.0.0",
   "description": "Best way to experience Deezer",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
