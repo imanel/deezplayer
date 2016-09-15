@@ -11,6 +11,7 @@ willQuitApp = false
 initialize = ->
   {width, height} = getDisplaySize()
   mainWindow = new BrowserWindow {
+    icon: __dirname + 'icon.png',
     width: width,
     height: height,
     webPreferences: {
