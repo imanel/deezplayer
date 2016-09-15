@@ -1,5 +1,5 @@
 {
-  "name": "deezplayer",
+  "name": "DeezPlayer",
   "version": "2.0.0",
   "description": "Best way to experience Deezer",
   "main": "index.js",
@@ -17,6 +17,7 @@
   },
   "homepage": "http://deezplayer.net",
   "devDependencies": {
+    "coffee-script": "^1.10.0",
     "electron": "^1.4.0"
   }
 }
