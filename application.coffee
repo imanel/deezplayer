@@ -5,6 +5,7 @@ globalShortcut = electron.globalShortcut
 path = require('path')
 
 mainWindow = null
+readyToQuit = false
 willQuitApp = false
 
 initialize = ->
@@ -17,16 +18,25 @@ initialize = ->
     }
   }
 
-  mainWindow.on 'close', (event) ->
-    if willQuitApp
-      mainWindow = null
-    else
-      event.preventDefault()
-      mainWindow.hide()
-
+  mainWindow.on 'close', (event) -> closeWindow event
   mainWindow.loadURL 'http://www.deezer.com'
-
   registerGlobalShortcuts()
+
+# This hack was implemented because sometimes Flash blocks closing window.
+closeWindow = (event) ->
+  if readyToQuit
+    app.quit()
+  else if willQuitApp
+    mainWindow.hide()
+    unregisterGlobalShortcuts()
+    runJS "dzPlayer.control.pause();"
+    setInterval (->
+      readyToQuit = true
+      mainWindow.close()
+    ), 100
+  else
+    event.preventDefault()
+    mainWindow.hide()
 
 getDisplaySize = ->
   {width, height} = electron.screen.getPrimaryDisplay().workAreaSize
@@ -43,14 +53,20 @@ loadFlash = ->
   app.commandLine.appendSwitch 'ppapi-flash-path', path.join(__dirname, 'flash', pluginName)
 
 registerGlobalShortcuts = ->
-  globalShortcut.register 'MediaPlayPause',     -> console.log 'Play/Pause pressed'
-  globalShortcut.register 'MediaStop',          -> console.log 'Stop pressed'
-  globalShortcut.register 'MediaNextTrack',     -> console.log 'Next pressed'
-  globalShortcut.register 'MediaPreviousTrack', -> console.log 'Previous pressed'
+  globalShortcut.register 'MediaPlayPause',     -> runJS "dzPlayer.control.togglePause();"
+  globalShortcut.register 'MediaStop',          -> runJS "dzPlayer.control.pause();"
+  globalShortcut.register 'MediaNextTrack',     -> runJS "dzPlayer.control.nextSong();"
+  globalShortcut.register 'MediaPreviousTrack', -> runJS "dzPlayer.control.prevSong();"
+
+runJS = (code) ->
+  mainWindow.webContents.executeJavaScript code
+
+unregisterGlobalShortcuts = ->
+  globalShortcut.unregisterAll()
 
 loadFlash()
 app.on 'ready', -> initialize()
 app.on 'activate', -> mainWindow.show()
 app.on 'window-all-closed', -> app.quit() unless process.platform == 'darwin'
 app.on 'before-quit', -> willQuitApp = true
-app.on 'will-quit', -> globalShortcut.unregisterAll()
+app.on 'will-quit', -> unregisterGlobalShortcuts()
