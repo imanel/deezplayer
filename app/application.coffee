@@ -51,7 +51,7 @@ loadFlash = ->
     when 'linux'  then 'libpepflashplayer.so'
     when 'win32'  then 'pepflashplayer.dll'
 
-  app.commandLine.appendSwitch 'ppapi-flash-path', path.join(__dirname, 'flash', pluginName)
+  app.commandLine.appendSwitch 'ppapi-flash-path', path.join(__dirname, '..', 'flash', pluginName)
 
 registerGlobalShortcuts = ->
   globalShortcut.register 'MediaPlayPause',     -> runJS "dzPlayer.control.togglePause();"

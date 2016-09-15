@@ -2,11 +2,16 @@
   "name": "DeezPlayer",
   "description": "Best way to experience Deezer",
   "author": "Bernard Potocki <bernard.potocki@imanel.org>",
+  "homepage": "http://deezplayer.net",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imanel/DeezPlayer.git"
+  },
 
   "scripts": {
-    "start": "electron ./app",
-    "dist": "build --dir",
+    "start": "electron ./app --enable-logging",
+    "build": "build -mwl",
     "postinstall": "install-app-deps"
   },
   "devDependencies": {
@@ -15,7 +20,16 @@
   },
   "build": {
     "appId": "org.imanel.deezplayer",
-    "app-category-type": "public.app-category.music",
-    "asar": false
+    "extraResources": [{
+        "from": "flash/${os}",
+        "to": "flash/${os}"
+    }],
+    "linux": {
+      "target": "deb"
+    },
+    "mac": {
+      "category": "public.app-category.music",
+      "target": "dmg"
+    }
   }
 }

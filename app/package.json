@@ -3,6 +3,7 @@
   "name": "DeezPlayer",
   "description": "Best way to experience Deezer",
   "author": "Bernard Potocki <bernard.potocki@imanel.org>",
+  "homepage": "http://deezplayer.net",
   "license": "MIT",
 
   "main": "main.js",
