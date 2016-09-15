@@ -16,8 +16,10 @@
     "url": "https://github.com/imanel/DeezPlayer/issues"
   },
   "homepage": "http://deezplayer.net",
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  },
   "devDependencies": {
-    "coffee-script": "^1.10.0",
     "electron": "^1.4.0"
   }
 }
