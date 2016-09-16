@@ -35,9 +35,11 @@ closeWindow = (event) ->
       readyToQuit = true
       mainWindow.close()
     ), 100
-  else
+  else if process.platform == 'darwin'
     event.preventDefault()
     mainWindow.hide()
+  else
+    app.quit()
 
 getDisplaySize = ->
   {width, height} = electron.screen.getPrimaryDisplay().workAreaSize
