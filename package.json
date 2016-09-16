@@ -11,7 +11,10 @@
 
   "scripts": {
     "start": "electron ./app --enable-logging",
-    "build": "build -mwl",
+    "build": "npm run build-linux && npm run build-mac && npm run build-windows",
+    "build-linux": "build --linux --x64",
+    "build-mac": "build --mac --x64",
+    "build-windows": "build --win --ia32",
     "postinstall": "install-app-deps"
   },
   "devDependencies": {
@@ -22,7 +25,7 @@
     "appId": "org.imanel.deezplayer",
     "extraResources": [{
         "from": "flash/${os}",
-        "to": "flash/${os}"
+        "to": "flash"
     }],
     "linux": {
       "target": "deb"
@@ -30,6 +33,9 @@
     "mac": {
       "category": "public.app-category.music",
       "target": "dmg"
+    },
+    "win": {
+      "target": "nsis"
     }
   }
 }
