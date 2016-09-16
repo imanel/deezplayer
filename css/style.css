@@ -4,34 +4,32 @@ body {
   padding: 0;
   background: black;
   color: white;
-  font-family: 'Fredoka One', cursive;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
   -webkit-font-smoothing:antialiased
 }
 
-#wrapper {
-  overflow: hidden;
+header {
   position: absolute;
-  top: 50%;
+  top: 40px;
   left: 50%;
-  height: 400px;
   width: 520px;
-  margin-top: -300px;
   margin-left: -260px;
 }
 
 h1, h2 {
   text-transform: uppercase;
-  font-weight: normal;
   margin: 0;
   padding: 0;
   line-height: 100%;
-  text-align: center;
+  padding-left: 80px;
 }
 
 h1 {
+  text-align: left;
   height: 100px;
-  font-size: 60px;
-  padding-left: 60px;
+  font-size: 62px;
+  line-height: 100%;
   background: url(../img/deezer-logo.png) no-repeat 0px 8px;
 }
 
@@ -41,38 +39,53 @@ h2 {
   color: #999;
 }
 
-a {
+a, img {
   text-decoration: none;
   color: #999;
-  -webkit-transition: color 0.3s ease-out;
-  -moz-transition: color 0.3s ease-out;
-  -o-transition: color 0.3s ease-out;
-  transition: color 0.3s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 a:hover {
   color: white;
 }
 
-section {
+#download {
   position: absolute;
-  top: 120px;
-  width: 100%;
-  height: 420px;
+  top: 50%;
+  left: 50%;
+  height: 128px;
+  width: 372px;
+  margin-left: -186px;
+  margin-top: -64px;
+}
+
+#download ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#download li {
+  float: left;
 }
 
 #download a {
   display: block;
-  width: 128px;
-  margin: 110px auto 0;
+  padding: 30px;
+  text-align: center;
 }
 
-#download a span {
-  display: block;
-  text-align: center;
-  font-size: 14px;
-  font-family: Arial;
-  font-weight: bold;
+#download a img {
+  opacity: 0.4;
+  width: 64px;
+}
+
+#download a:hover img {
+  opacity: 1;
 }
 
 footer {
@@ -93,32 +106,26 @@ footer span {
   margin: 0 5px;
 }
 
-@-moz-keyframes reset { 0% {opacity: 0;} 100% {opacity: 0;} }
-@-webkit-keyframes reset { 0% {opacity: 0;} 100% {opacity: 0;} }
-@keyframes reset { 0% {opacity: 0;} 100% {opacity: 0;} }
-
-@-moz-keyframes fade-in { 0% {opacity: 0;} 60% {opacity: 0;} 100% {opacity: 1;} }
-@-webkit-keyframes fade-in { 0% {opacity: 0;} 60% {opacity: 0;} 100% {opacity: 1;} }
-@keyframes fade-in { 0% {opacity: 0;} 60% {opacity: 0;} 100% {opacity: 1;} }
+@-webkit-keyframes fade-in { from { opacity: 0;} to { opacity: 1;} }
+@keyframes fade-in { from { opacity: 0;} to { opacity: 1;} }
 
 .fade-in {
-  -moz-animation: reset 2s ease-in 0s 1, fade-in 2s ease-in 0s 1;
-  -webkit-animation: reset 2s ease-in 0s 1, fade-in 2s ease-in 0s 1;
-  animation: reset 2s ease-in 0s 1, fade-in 2s ease-in 0s 1;
+  opacity: 0;
+  -webkit-animation: fade-in 2s ease-in 1;
+  animation: fade-in 2s ease-in 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
 }
 
 .fade-in.one {
-  -moz-animation-delay: 0s, 0s;
-  -webkit-animation-delay: 0s, 0s;
-  animation-delay: 0s, 0s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 .fade-in.two {
-  -moz-animation-delay: 0s, 1s;
-  -webkit-animation-delay: 0s, 1s;
-  animation-delay: 0s, 1s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
 }
 .fade-in.three {
-  -moz-animation-delay: 0s, 1.5s;
-  -webkit-animation-delay: 0s, 1.5s;
-  animation-delay: 0s, 1.5s;
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }

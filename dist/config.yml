@@ -1,7 +1,0 @@
----
-build_now:              'YES'
-download_base_url:      'http://deezplayer.net/dist/'
-appcast_basefolder:     '/Users/imanel/Sites/moje/osx/DeezPlayer-website/dist/'
-appcast_xml_name:       'appcast.xml'
-keychain_privkey_name:  'Sparkle Private Key'
-css_file_name:          'release-notes.css'
