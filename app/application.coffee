@@ -1,8 +1,7 @@
 electron = require('electron')
-app = electron.app
-BrowserWindow = electron.BrowserWindow
-globalShortcut = electron.globalShortcut
+{app, BrowserWindow, globalShortcut} = electron
 path = require('path')
+createMainMenu = require('./main_menu')
 
 mainWindow = null
 readyToQuit = false
@@ -22,6 +21,7 @@ initialize = ->
   mainWindow.on 'close', (event) -> closeWindow event
   mainWindow.loadURL 'http://www.deezer.com'
   registerGlobalShortcuts()
+  createMainMenu()
 
 # This hack was implemented because sometimes Flash blocks closing window.
 closeWindow = (event) ->
