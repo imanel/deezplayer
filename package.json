@@ -2,7 +2,7 @@
   "name": "DeezPlayer",
   "description": "Best way to experience Deezer",
   "author": "Bernard Potocki <bernard.potocki@imanel.org>",
-  "homepage": "http://imanel.org/deezplayer",
+  "homepage": "https://deezplayer.imanel.org",
   "license": "MIT",
   "repository": {
     "type": "git",
