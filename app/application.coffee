@@ -19,7 +19,7 @@ initialize = ->
   }
 
   mainWindow.on 'close', (event) -> closeWindow event
-  mainWindow.loadURL 'http://www.deezer.com'
+  mainWindow.loadURL 'https://www.deezer.com'
   registerGlobalShortcuts()
   createMainMenu()
 
