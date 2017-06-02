@@ -18,8 +18,8 @@
     "postinstall": "install-app-deps"
   },
   "devDependencies": {
-    "electron": "^1.4.0",
-    "electron-builder": "^6.7.6"
+    "electron": "*",
+    "electron-builder": "*"
   },
   "build": {
     "appId": "org.imanel.deezplayer",
