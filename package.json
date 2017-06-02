@@ -23,10 +23,6 @@
   },
   "build": {
     "appId": "org.imanel.deezplayer",
-    "extraResources": [{
-        "from": "flash/${os}",
-        "to": "flash"
-    }],
     "linux": {
       "target": "deb"
     },

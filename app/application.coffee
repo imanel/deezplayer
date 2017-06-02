@@ -23,7 +23,7 @@ initialize = ->
   registerGlobalShortcuts()
   createMainMenu()
 
-# This hack was implemented because sometimes Flash blocks closing window.
+# This hack was implemented because sometimes Deezer blocks closing window.
 closeWindow = (event) ->
   if readyToQuit
     app.quit()
@@ -47,14 +47,6 @@ getDisplaySize = ->
   height = Math.round height * 0.75
   return {width, height}
 
-loadFlash = ->
-  pluginName = switch process.platform
-    when 'darwin' then 'PepperFlashPlayer.plugin'
-    when 'linux'  then 'libpepflashplayer.so'
-    when 'win32'  then 'pepflashplayer.dll'
-
-  app.commandLine.appendSwitch 'ppapi-flash-path', path.join(__dirname, '..', 'flash', pluginName)
-
 registerGlobalShortcuts = ->
   globalShortcut.register 'MediaPlayPause',     -> runJS "dzPlayer.control.togglePause();"
   globalShortcut.register 'MediaStop',          -> runJS "dzPlayer.control.pause();"
@@ -67,7 +59,6 @@ runJS = (code) ->
 unregisterGlobalShortcuts = ->
   globalShortcut.unregisterAll()
 
-loadFlash()
 app.on 'ready', -> initialize()
 app.on 'activate', -> mainWindow.show()
 app.on 'window-all-closed', -> app.quit() unless process.platform == 'darwin'
