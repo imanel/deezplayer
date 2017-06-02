@@ -1,5 +1,10 @@
 ## Changelog
 
+### Edge
+
+- Remove Flash
+- Fix weird error during closing application
+
 ### 2.0.1
 
 - Fix missing menu
