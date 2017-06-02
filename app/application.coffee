@@ -33,7 +33,8 @@ closeWindow = (event) ->
     runJS "dzPlayer.control.pause();"
     setInterval (->
       readyToQuit = true
-      mainWindow.close()
+      try
+        mainWindow.close()
     ), 100
   else if process.platform == 'darwin'
     event.preventDefault()
