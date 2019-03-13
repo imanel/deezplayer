@@ -8,7 +8,6 @@
     "type": "git",
     "url": "git+https://github.com/imanel/DeezPlayer.git"
   },
-
   "scripts": {
     "start": "electron ./app --enable-logging",
     "build": "npm run build-linux && npm run build-mac && npm run build-windows",
